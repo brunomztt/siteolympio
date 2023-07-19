@@ -69,7 +69,7 @@ body, html {
   .Features2{
     margin-top: 27px;
     font-size: 28px;
-    font-style: normal;
+    font-style: italic;
     font-weight: 400;
     line-height: 40px; /* 142.857% */
     letter-spacing: 0.2px;
@@ -99,4 +99,37 @@ margin-top: 20px;
   font-weight: 400;
   line-height: 25px; /* 138.889% */
   letter-spacing: 0.2px;
+}
+  #contatos{
+  margin-top: 226px;
+  margin-bottom: 226px;
+  }
+  .contact{
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px; /* 114.583% */
+  letter-spacing: 0.2px;
+  }
+  .subcontact{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 142.857% */
+    letter-spacing: 0.2px;
+  }
+  #botao{
+    align-items: center;
+  }
+  .macbook{
+
+  }
+  @media (max-width: 719px)
+{
+  .macbook
+   {
+    max-width: 100%;
+   }
 }
