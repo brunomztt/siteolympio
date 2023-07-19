@@ -74,3 +74,29 @@ body, html {
     line-height: 40px; /* 142.857% */
     letter-spacing: 0.2px;
   }
+
+  #ICONS8{
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .titleicon{
+    color:#252B42;
+    font-family: Graphik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+    letter-spacing: 0.1px;
+    }
+
+.subtitleicon{
+margin-top: 20px;
+
+  color:#374754;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+  letter-spacing: 0.2px;
+}
