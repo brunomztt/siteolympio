@@ -6,7 +6,6 @@ body, html {
   .bg {
     /* The image used */
     background-image: url("/assets/first.png");
-  
     /* Full height */
     height: 110%; 
   
@@ -44,12 +43,19 @@ body, html {
 
   button{
     border-radius: 35px;
-    background:#2091F9;
+    background:#090086;
     border: none;
     text-align: center;
     color: white;
     padding: 16px 0px;
     width: 236px;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background: #006ed4;
+    color: #d8d8d8;
+    
   }
 
   .segundo{
@@ -74,6 +80,15 @@ body, html {
     line-height: 40px; /* 142.857% */
     letter-spacing: 0.2px;
   }
+
+  .Features3{
+    margin-top: 27px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 142.857% */
+    letter-spacing: 0.2px;
+    }
 
   #ICONS8{
     margin-top: 80px;
@@ -123,13 +138,19 @@ margin-top: 20px;
   #botao{
     align-items: center;
   }
-  .macbook{
-
-  }
   @media (max-width: 719px)
 {
   .macbook
    {
     max-width: 100%;
    }
+}
+.partnerimg{
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+}
+.partner1 {
+  display: flex;
+  justify-content: center;
 }
