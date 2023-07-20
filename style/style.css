@@ -1,8 +1,9 @@
 body, html {
     height: 100%;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
   }
-  
+
 * {
   margin: 0;
   padding: 0;
@@ -211,15 +212,15 @@ a {
 .nav-link {
   font-size: 1.6rem;
   font-weight: 400;
-  color: #475569;
+  color: #fff;
 }
 
 .nav-link:hover {
-  color: #482ff7;
+  color: #006ed4;
 }
 
 .nav-logo img{
-  height: 40px;
+  height: 80px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -235,6 +236,13 @@ a {
       transition: 0.3s;
       box-shadow:
           0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+  .nav-link{
+    color: #090086;
+  }
+
+  .nav-logo img{
+    height: 40px;
   }
 
   .nav-menu.active {
@@ -261,4 +269,16 @@ a {
   .hamburger.active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
   }
+  
+  .botao{
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .partnerimg{
+    border: 2px solid rgb(85, 85, 85);
+    max-width: 100% ;
+    
+  }
+
 }
