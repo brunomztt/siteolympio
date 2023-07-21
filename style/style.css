@@ -274,6 +274,23 @@ a {
   text-align: center;
   font-size: 18px;
 }
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #090086;
+}
 
 @media only screen and (max-width: 768px) {
   .nav-menu {
@@ -333,4 +350,36 @@ a {
     
   }
 
+}
+
+/* TESTANDO TESTANDO TESTANDO TESTANDO*/
+#contactus{
+  margin-top: 100px;
+}
+#boxcontato{
+  margin-top: 20px;
+}
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+  text-align: left;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.contact-box{
+  padding: 15px 20px;
+  background-color: #f0f0f0;
+  box-shadow: 3px 3px 5px #b6b6b6;
+}
+textarea{
+	min-height: 200px;
+  resize: none;
 }
