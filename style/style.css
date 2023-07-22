@@ -13,7 +13,7 @@ body, html {
   
   .bg {
     /* The image used */
-    background-image: url("/assets/first.png");
+    background-image: url("../assets/first.png");
     /* Full height */
     height: 110%; 
   
@@ -398,6 +398,9 @@ textarea{
   font-size: 12px;
   color: black;
   font-weight: 700;
+}
+.numero{
+  font-weight: 600;
 }
 footer{
   margin-top: 150px;
