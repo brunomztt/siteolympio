@@ -113,7 +113,7 @@ body, html {
   .titleicon{
     color:#252B42;
     font-family: Graphik;
-    font-size: 20px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 700;
     line-height: 28px; /* 140% */
@@ -124,7 +124,7 @@ body, html {
 margin-top: 20px;
 
   color:#374754;
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 25px; /* 138.889% */
@@ -359,6 +359,9 @@ h2:after{
     max-width: 100%;
     max-height: 100%;
   }
+  footer .col-4{
+    align-items: center;
+  }
 
 }
 
@@ -406,13 +409,16 @@ footer{
   margin-top: 150px;
   color: #fff;
   background-color: #090086;
+  padding-bottom: 20px;
 }
 footer h6{
-  font-size: 25px;
+  margin-top: 20px;
+  font-size: 20px;
 }
 footer a{
   font-size: 13px;
   text-decoration: none;
+
 }
 footer a{
   color: #fff;
