@@ -2,7 +2,6 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: #FAFAFA;
   }
 
 * {
@@ -24,7 +23,7 @@ body, html {
   }
 
   .bg-content h1{
-    color: white;
+    color: #FFF;
     margin-bottom: 27px;
     margin-top: 270px;
     font-size: 74px;
@@ -35,7 +34,7 @@ body, html {
   }
 
   .bg-content h2{
-    color: white;
+    color: #ffffff;
     margin-bottom: 90px;
     font-size: 28px;
     font-style: normal;
@@ -95,6 +94,7 @@ body, html {
     font-weight: 400;
     line-height: 40px; /* 142.857% */
     letter-spacing: 0.2px;
+    text-align: center;
     }
     .Features4{
       margin-top: 0px;
@@ -171,9 +171,10 @@ margin-top: 20px;
    }
 }
 .partnerimg{
-  max-width: 200px;
+  max-width: 90px;
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 .partner1 {
   display: flex;
@@ -193,9 +194,10 @@ a {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 1rem 1.5rem;
+
 }
 
 .hamburger {
@@ -280,44 +282,35 @@ a {
   text-align: center;
   font-size: 18px;
 }
-h2{
-	position: relative;
-	padding: 0 0 10px;
-	margin-bottom: 10px;
-}
-
-h2:after{
-	content: '';
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 50px;
-    border-radius: 2px;
-    background-color: #090086;
+.partnerbg{
+  background-color: #d8d8d8;
 }
 
 @media only screen and (max-width: 768px) {
+  .navbar{
+    justify-content: space-between;
+  }
   .nav-menu {
       position: fixed;
       left: -100%;
       top: 5rem;
       flex-direction: column;
-      background-color: #fff;
+      background-color: #f0f0f0;
       width: 100%;
       border-radius: 10px;
       text-align: center;
       transition: 0.3s;
       box-shadow:
           0 10px 27px rgba(0, 0, 0, 0.05);
+      
   }
   .nav-link{
     color: #090086;
   }
 
   .nav-logo img{
-    height: 40px;
+    height: 50px;
+    justify-content: center;
   }
 
   .nav-menu.active {
@@ -406,7 +399,7 @@ textarea{
   font-weight: 600;
 }
 footer{
-  margin-top: 150px;
+  margin-top: 0px;
   color: #fff;
   background-color: #090086;
   padding-bottom: 20px;
