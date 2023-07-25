@@ -175,7 +175,12 @@ margin-top: 20px;
   display: flex;
   align-items: center;
   margin-bottom: 30px;
+  filter: grayscale(100%);
 }
+.partnerimg a:hover{
+  cursor: pointer;
+}
+
 .partner1 {
   display: flex;
   justify-content: center;
@@ -346,14 +351,16 @@ a {
   .partnerimg{
     border: 2px solid rgb(85, 85, 85);
     max-width: 100% ;
+    filter:grayscale(100%)
     
   }
   .mapa iframe{
     max-width: 100%;
     max-height: 100%;
   }
-  footer .col-4{
+  footer{
     align-items: center;
+    text-align: center;
   }
 
 }
