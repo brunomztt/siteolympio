@@ -69,6 +69,11 @@ body, html {
   .segundo h2{
     margin-top: 100px;
   }
+  #video{
+    background-color: #090086;
+    padding: 50px;
+  }
+
   .Features{
     font-size: 48px;
     font-style: normal;
