@@ -72,9 +72,18 @@ body, html {
   .segundo h2{
     margin-top: 100px;
   }
-  #video{
+
+  .videopng{
     background-color: #090086;
+  }
+  .youtube{
+    border-radius: 25px;
+  }
+
+  .video{
+    background-image: url(xxx);
     padding: 50px;
+    opacity: 90%;
   }
 
   .Features{
@@ -83,7 +92,7 @@ body, html {
     font-weight: 400;
     line-height: 55px; /* 114.583% */
     letter-spacing: 0.2px;
-    padding-top: 30px;
+    padding-top: 45px;
   }
 
   .Features2{
@@ -93,17 +102,19 @@ body, html {
     font-weight: 400;
     line-height: 40px; /* 142.857% */
     letter-spacing: 0.2px;
+
     
   }
 
   .Features3{
     margin-top: 27px;
-    font-size: 28px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 40px; /* 142.857% */
     letter-spacing: 0.2px;
     text-align: center;
+    margin-bottom: 30px;
     }
     .Features4{
       margin-top: 0px;
@@ -180,10 +191,10 @@ margin-top: 20px;
    }
 }
 .partnerimg{
-  max-width: 90px;
+  max-width: 125px;
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   filter: grayscale(100%);
 }
 .partnerimg a:hover{
