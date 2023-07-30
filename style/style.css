@@ -87,9 +87,11 @@ body, html {
   }
   .videotext{
     color: white;
+    font-size: 40px;
   }
   .videotextp{
     color: white;
+    font-size: 26px
   }
 
   .Features{
