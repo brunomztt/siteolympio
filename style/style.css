@@ -85,6 +85,12 @@ body, html {
     padding: 50px;
     opacity: 90%;
   }
+  .videotext{
+    color: white;
+  }
+  .videotextp{
+    color: white;
+  }
 
   .Features{
     font-size: 48px;
